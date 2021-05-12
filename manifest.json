@@ -1,0 +1,18 @@
+{
+  "name": "Knowledge Classic",
+  "version": "0.0.0.1",
+  "manifest_version": 2,
+  "description": "Convert Lightning Knowledge Articles to Classic and view them in a separate window to enhance productivity while working cases.",
+
+  "background": {
+    "scripts": ["event.js"],
+    "persistent": false
+  },
+
+  "permissions": ["contextMenus"],
+
+  "icons": {
+    "16": "logo.png",
+    "128": "logo.png"
+  }
+}
