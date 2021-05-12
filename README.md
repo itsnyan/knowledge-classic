@@ -1,9 +1,21 @@
-# knowledge-classic
+# Knowledge Classic 
 
-"Printable View" is also a limitation for Knowledge Lightning so we are no longer able to view Knowledge Articles in a new window while working on cases. 
+![Knowledge Classic Logo](static/logo.jpg)
 
-This extension that allows you to view knowledge articles in a separate browser window to enhance productivity while working on cases.
+This is a Google Chrome Extension I developed for Salesforce internal IT team through the Techforce Innovation Program. 
 
-All you have to do is right-click on an article then click "Knowledge Classic" and the article will open in a new window. 
+## Background
 
-This extensions is currently approved by EntSec and used by the Global Techforce team. 
+- "Printable View" is also a limitation for Knowledge Lightning so we are no longer able to view Knowledge Articles in a new window while working on cases. 
+
+- Without the Lightning extension, when we open a new browser window of Supportforce, you'll get logged out of OMNI. 
+
+- This extension that resolves that issue and allows you open the lightning knowledge articles by converting it into Classic first. 
+
+#
+
+### Check it out on the Google Store!
+[Knowledge Classic](https://chrome.google.com/webstore/detail/knowledge-classic/gmdbpnjnceiomokflphcodnbfpceimcd?hl=en&authuser=1)
+
+
+#
