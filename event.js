@@ -4,11 +4,9 @@ function onClickHandler(e) {
     chrome.windows.create({ url: n });
 }
 function getKnowledgeId(e) {
-    let n = e.lastIndexOf("/", e.lastIndexOf("/") - 1),
-        t = e.lastIndexOf("/"),
-        o = [];
-    for (i = n + 1; i <= t - 1; i++) o.push(e[i]);
-    return (id = o.join(""));
+    let firstSlash = e.lastIndexOf("/", 
+    let lastSlash =  e.lastIndexOf("/") - 1)
+    return e.splice(firstSlash, lastSlash);
 }
 function replaceUrl(e) {
     return `https://supportforce.my.salesforce.com/${e}?srPos=0&srKp=kaB&lang=en_US`;
