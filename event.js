@@ -4,8 +4,8 @@ function onClickHandler(e) {
     chrome.windows.create({ url: n });
 }
 function getKnowledgeId(e) {
-    let firstSlash = e.lastIndexOf("/", 
-    let lastSlash =  e.lastIndexOf("/") - 1)
+    let firstSlash = e.lastIndexOf("/"); 
+    let lastSlash =  e.lastIndexOf("/") - 1);
     return e.splice(firstSlash, lastSlash);
 }
 function replaceUrl(e) {
