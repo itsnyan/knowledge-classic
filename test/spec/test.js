@@ -4,13 +4,13 @@ describe("unit tests", function () {
   //   song = new Song();
   // });
 
-  it("should return route ID", function () {
-    let test = "www.testurl.com/students/123456/";
-    expect(getKnowledgeId(test)).toEqual("123456");
+  it("should return route ID from last-two forward-slashes", function () {
+    let testUrl = "www.testurl.com/students/123456/";
+    expect(getKnowledgeId(testUrl)).toEqual("123456");
   });
 
   it("should replace link to Salesforce Classic Link", function () {
-    let test = "123456";
+    let testId = "123456";
     expect(replaceUrl(test)).toEqual(
       "https://supportforce.my.salesforce.com/123456?srPos=0&srKp=kaB&lang=en_US"
     );
