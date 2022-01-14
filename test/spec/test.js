@@ -12,7 +12,7 @@ describe("unit tests", function () {
   it("should replace link to Salesforce Classic Link", function () {
     let testId = "123456";
     expect(replaceUrl(test)).toEqual(
-      "https://supportforce.my.salesforce.com/123456?srPos=0&srKp=kaB&lang=en_US"
+      `https://supportforce.my.salesforce.com/${testId}?srPos=0&srKp=kaB&lang=en_US`
     );
   });
 });
