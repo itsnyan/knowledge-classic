@@ -1,9 +1,4 @@
 describe("unit tests", function () {
-  // beforeEach(function () {
-  //   player = new Player();
-  //   song = new Song();
-  // });
-
   it("should return route ID from last-two forward-slashes", function () {
     let testUrl = "www.testurl.com/students/123456/";
     expect(getKnowledgeId(testUrl)).toEqual("123456");
