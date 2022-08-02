@@ -10,7 +10,7 @@ This is a Google Chrome Extension I developed for Salesforce internal IT team th
 
 - Without the Lightning extension, when we open a new browser window of Supportforce, you'll get logged out of OMNI. 
 
-- This extension that resolves that issue and allows you open the lightning knowledge articles by converting it into Classic first. 
+- This extension that resolves that issue and allows you open the lightning knowledge articles by redirecting it into Classic first. 
 
 #
 
